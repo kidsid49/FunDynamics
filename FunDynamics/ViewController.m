@@ -37,10 +37,12 @@
 - (void)setUI {
     
     //Adding the square boxes to main view.
+    //Square1 is in yellow color.
     _square1View = [[UIView alloc] initWithFrame:CGRectMake(170, 100, 100, 100)];
     _square1View.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:_square1View];
     
+     //Square2 is in blue color.
     _square2View = [[UIView alloc] initWithFrame:CGRectMake(10, 250, 100, 100)];
     _square2View.backgroundColor = [UIColor blueColor];
     [self.view addSubview:_square2View];
